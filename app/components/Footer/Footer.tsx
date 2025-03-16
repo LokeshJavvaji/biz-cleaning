@@ -26,7 +26,7 @@ export default function Footer() {
           <p className="text-sm text-gray-600">&copy; 2024 BIZ CLEANING SERVICE LTD . All rights reserved.</p>
         </div>
         <div className="flex flex-col items-center md:items-start">
-          <Image src="/log3.png" alt="Company Logo" width={600} height={400} />
+          <Image src="/LOG3.png" alt="Company Logo" width={600} height={400} />
     
         </div>
 
