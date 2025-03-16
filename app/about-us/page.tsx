@@ -36,7 +36,7 @@ export default function AboutUs() {
           </Link>
         </div>
         <Slider images={slides} />
-        <div className="w-full p-6 text-center md:w-3/4 lg:w-1/2 xl:w-1/3 mx-auto">
+        <div className="w-full p-6 text-center mx-auto">
           <p className="text-lg">
             At <strong>BIZ CLEANING</strong>, we are dedicated to providing exceptional cleaning services that
             exceed our clients expectations. Our mission is to deliver sparkling clean results, every time, and
