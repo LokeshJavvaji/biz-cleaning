@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section className="relative h-screen flex flex-col items-center justify-center text-center px-4 md:px-8">
       {/* Background Image */}
-      <div>
+      <div className="absolute inset-0">
         <Image
           src="/home.jpg"
           alt="Background"
@@ -16,7 +16,7 @@ export default function Hero() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-10 bg-black/0"></div>
+        <div className="absolute inset-0 bg-black/0"></div>
       </div>
 
       {/* Content */}
