@@ -21,7 +21,7 @@ export default function TechTips() {
 
 return (
 
-<div className="flex flex-col gap-6 p-4 container mx-auto text-center">
+<div className="flex flex-col gap-6 p-4 container mx-auto max-w-3xl text-center">
   <p className="mt-4 text-4xl font-bold" style={{ color: 'red' }}>IMPORTANCE OF CLEANING</p>
   <div className="flex flex-col lg:grid lg:grid-cols-2 gap-7 justify-center">
     {techTips.map((cardData, index) => (
