@@ -11,18 +11,16 @@ export default function Welcome() {
           results that exceed expectations. Our core values of quality, reliability, and customer satisfaction drive
           us to be the best in the industry.
         </p>
-        <div className="flex justify-center mt-8">
-          <div className="relative w-full md:w-3/4 lg:w-1/2 xl:w-1/2 h-70 md:h-80 lg:h-96">
-            <iframe
-              className="w-full h-full rounded-lg"
-              src="https://www.youtube.com/embed/2RcVoBWsQKA?autoplay=1&loop=1&playlist=2RcVoBWsQKA"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
+        <div className="w-full">
+                <iframe
+                    className="w-full h-60 md:h-80 lg:h-96 rounded-lg"
+                    src="https://www.youtube.com/embed/2RcVoBWsQKA?autoplay=1&loop=1&playlist=2RcVoBWsQKA"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                ></iframe>
+            </div>
         <p className="mt-9 text-xl text-gray-600 text-center">
           With years of experience, we have developed a deep understanding of our client needs. We offer customized
           cleaning solutions, including one-time deep cleaning, regular maintenance, and specialized services. Our
