@@ -6,7 +6,7 @@ export default function Hero() {
   const router = useRouter();
 
   return (
-    <section className="relative h-screen flex flex-col items-center justify-center text-center px-4 md:px-8">
+    <section className="absolute h-screen flex flex-col items-center justify-center text-center px-4 md:px-8">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
