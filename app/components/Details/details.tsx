@@ -32,9 +32,9 @@ export default function Details() {
     <div className="flex flex-col gap-15 p-4 w-full container mx-auto">
       <p className="mt-4 text-4xl font-bold text-center" style={{ color: 'red' }}>BIZ CLEANING SERVICES LTD</p>
       
-      <div className="flex justify-center gap-9">
+      <div className="flex flex-col lg:grid lg:grid-cols-3 gap-6 justify-center">
         {details.map((cardData, index) => (
-          <div key={index} className="w-full md:w-1/3 xl:w-1/3">
+          <div key={index}>
             <DetailCard data={cardData} />
           </div>
         ))}
