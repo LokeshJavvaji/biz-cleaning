@@ -60,16 +60,16 @@ export default function AboutUs() {
         <div className="container mx-auto p-4 px-10 grid gap-4">
           <div className="grid gap-3">
             <br></br>
-            <h1 className="text-4xl font-bold">Our Mission</h1>
-            <p className="text-2xl">
+            <h1 className="text-3xl font-bold">Our Mission</h1>
+            <p className="text-xl">
               Our mission is to provide exceptional cleaning services that exceed our clients expectations. We
               strive to deliver sparkling clean results, every time, and build long-lasting relationships with our
               clients.
             </p>
           </div>
           <div className="grid gap-3">
-            <h1 className="text-4xl font-bold">Our Vision</h1>
-            <p className="text-2xl">
+            <h1 className="text-3xl font-bold">Our Vision</h1>
+            <p className="text-xl">
               Our vision is to be the leading cleaning services provider, known for our exceptional quality,
               reliability, and customer satisfaction. We aim to build a reputation for excellence and become the
               go-to cleaning solution for homes, offices, and industries.
@@ -87,7 +87,7 @@ export default function AboutUs() {
         </div>
       </section>
       <section className="container mx-auto grid gap-3 my-4">
-        <h1 className="flex justify-center font-bold text-4xl text-blue-500">
+        <h1 className="flex text-center font-bold text-4xl text-blue-500">
           Why Choose BIZ CLEANING?
         </h1>
         <div className="container mx-auto p-4 px-10">
