@@ -43,17 +43,16 @@ export default function AboutUs() {
             build long-lasting relationships with our clients.
           </p>
         </div>
-        <div className="flex justify-center">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/3Iy9YeY5kmw?autoplay=1&loop=10&playlist=3Iy9YeY5kmw"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-        </div>
+        <div className="w-full">
+                <iframe
+                    className="w-full h-60 md:h-80 lg:h-96 rounded-lg"
+                    src="https://www.youtube.com/embed/2RcVoBWsQKA?autoplay=1&loop=1&playlist=2RcVoBWsQKA"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                ></iframe>
+            </div>
       </section>
       <br></br>
       <section className="border shadow grid gap-4 py-5">
